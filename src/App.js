@@ -9,6 +9,7 @@ function App() {
 
   const setPlace = (location) => {
     console.log("Location and Dish from Child we called back is", location);
+    console.log("console test");
   }
 
   const displayDish = (rice) => {
@@ -20,7 +21,7 @@ function App() {
       {/* <h1>MY FIRST REACT APP</h1> */}
       {/* <FirstComponent sendAustin={(place) => setPlace(place)} sendDish={(rice) => displayDish(rice)} /> */}
       {/* <UseStateComp /> */}
-      <Counter/>
+      <Counter />
     </div>
   );
 }
