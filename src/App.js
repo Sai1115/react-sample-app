@@ -10,7 +10,7 @@ function App() {
   const setPlace = (location) => {
     console.log("Location and Dish from Child we called back is", location);
     
-  }
+     }
 
   const displayDish = (rice) => {
     console.log("The Dish we got from child is", rice);
