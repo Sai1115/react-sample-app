@@ -9,7 +9,7 @@ function App() {
 
   const setPlace = (location) => {
     console.log("Location and Dish from Child we called back is", location);
-    console.log("console test");
+    
   }
 
   const displayDish = (rice) => {
